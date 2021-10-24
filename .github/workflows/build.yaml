@@ -33,12 +33,12 @@ jobs:
       - name: Setup Java JDK
         uses: actions/setup-java@v2.3.1
         with:
-          java-version: 16.0
+          java-version: 17.0
           distribution: adopt
 
       - name: java version
         run: java -version
 
       - name: Run a one-line script
-        run: mvn --version
+        run: cd Spring-cache-ehcache-3 && mvn --version
 
