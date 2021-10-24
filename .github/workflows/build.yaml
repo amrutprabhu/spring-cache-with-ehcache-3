@@ -40,5 +40,5 @@ jobs:
         run: java -version
 
       - name: Build Project
-        run: cd Spring-caching-with-ehcache-3 && mvn --version
+        run: cd Spring-caching-with-ehcache-3 && mvn clean verify
 
