@@ -39,6 +39,6 @@ jobs:
       - name: java version
         run: java -version
 
-      - name: Run a one-line script
-        run: cd Spring-cache-ehcache-3 && mvn --version
+      - name: Build Project
+        run: cd Spring-caching-with-ehcache-3 && mvn --version
 
